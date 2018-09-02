@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'column',
         alignItems: 'center',
-        justifyContent: 'space-between',
+        justifyContent: 'flex-start',
     },
     infoImageContainer: {
         width: 64,
@@ -172,6 +172,8 @@ const styles = StyleSheet.create({
     },
     adMobBanner: {
         position: 'absolute',
+        display: 'flex',
+        justifyContent: 'center',
         bottom: 0,
         width: screenX,
         height: 60,

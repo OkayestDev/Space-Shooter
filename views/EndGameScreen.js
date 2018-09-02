@@ -111,6 +111,7 @@ const styles = StyleSheet.create({
     },
     adMobBanner: {
         position: 'absolute',
+        justifyContent: 'center',
         bottom: 0,
         width: screenX,
         height: 60,
